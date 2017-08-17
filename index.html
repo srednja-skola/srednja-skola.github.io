@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SŠBK Pag</title>
+  <title>Srednja Škola Bartula Kašića Pag - nastavni materijal</title>
+  <style>
+  /*
+  --g-crvena: #F44336;
+  --g-svijetlo-plava: #03A9F4;
+  --g-tamno-plava: #0D47A1;
+  --g-indigo: #1A237E;
+  --g-smedja: #795548;
+  --g-zelena: #4CAF50;
+  --g-svijetlo-zelena: #8BC34A;
+  --g-zarko-zelena: #76FF03;
+  --g-amber: #FFC107;
+  --g-zuta: #FFEB3B;
+  --g-narancasta: #FF9800;
+  --g-tamno-narancasta: #FF3D00;
+  --g-siva: #9E9E9E;;
+  */
+  html {
+    font-family: sans-serif;
+  }
+  body {
+    margin: 30px;
+  }
+  main {
+    margin:8% 10%;
+    display:flex;
+    text-align: center;
+  }
+  a {
+    flex:1;
+    padding: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    color:#fff;
+    border-radius: 5px;
+  }
+  hr {
+    border: 1px dashed #ccc;
+  }
+  .sociologija {
+    background: #FF3D00;
+  }
+  .politika {
+    background: #0D47A1;
+  }
+  a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+.naslov {
+  text-align: center;
+  font-weight: normal;
+}
+@media all and (max-width:768px) {
+  main {
+    flex-flow: column;
+    margin:0;
+  }
+  a {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  footer {
+    text-align: center;
+  }
+}
+  </style>
 </head>
 <body>
-  <a href="https://srednja-skola.github.io/sociologija/">Sociologija</a>
-  <a href="https://srednja-skola.github.io/politika/">Politika i gospodarstvo</a>
+  <h1 class="naslov">Klikom odaberi podstranicu</h1>
+  <main>
+      <a class="sociologija" href="https://srednja-skola.github.io/sociologija/">Sociologija</a>
+      <a class="politika" href="https://srednja-skola.github.io/politika/">Politika i gospodarstvo</a>
+  </main>
+  <hr class="crta">
+  <footer>copyleft Danijel Gavranović, prof.</footer>
 </body>
 </html>
