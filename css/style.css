@@ -5,7 +5,7 @@
   --g-indigo: #1A237E;
   --g-smedja: #795548;
   --g-zelena: #64DD17;
-  --tamno-narancasta:#FF3D00;
+  --tamno-narancasta: #FF3D00;
   --g-svijetlo-zelena: #8BC34A;
   --g-zarko-zelena: #76FF03;
   --g-amber: #FFC107;
@@ -60,7 +60,7 @@ hr {
 }
 
 .tablica {
-  background: #9E9E9E;
+  background: var(--g-siva);
 }
 
 a:hover {
@@ -126,10 +126,12 @@ pre {
 .izvor-ostali {
   background: var(--g-svijetlo-plava);
 }
+
 .izvor-pag {
   background: var(--tamno-narancasta);
 }
+
 .u-sredini {
-text-align: center;
-font-family: monospace;
+  text-align: center;
+  font-family: monospace;
 }
