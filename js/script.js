@@ -1,3 +1,4 @@
+// encrypt
 var pokrivac = document.querySelector(".pokrivac");
 
 function sifra() {
@@ -8,7 +9,6 @@ function sifra() {
         pokrivac.classList = "";
     } else {
         pokrivac.classList = "pokrivac";
-
     }
 }
 sifra();
