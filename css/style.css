@@ -14,7 +14,10 @@
   --g-tamno-narancasta: #FF3D00;
   --g-siva: #9E9E9E;
 }
-
+.red {
+  font-weight: bold;
+  color: var(--g-crvena);
+}
 html {
   font-family: sans-serif;
 }
@@ -29,6 +32,11 @@ main, section {
   text-align: center;
 }
 
+footer > hr, footer > p {
+  margin: 10px 10% 0;
+  display: flex;
+  text-align: center;
+}
 a {
   flex: 1;
   padding: 30px;
@@ -141,4 +149,8 @@ pre {
   font-size: 15px;
   margin-top: -85px;
   left: 0px;
+}
+.cl {
+    display: inline-block;
+    transform: rotate(180deg);
 }
