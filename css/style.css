@@ -37,6 +37,12 @@ footer > hr, footer > p {
   display: flex;
   text-align: center;
 }
+.prezimenaNaslov {
+  margin:-2% 10% -3.5%;
+  font-weight: normal;
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
 a {
   flex: 1;
   padding: 30px;
