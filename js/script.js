@@ -37,7 +37,20 @@ route.add("dodatna-nastava.html", function() {
     }
   }
   sifra();
+}),
+route.add("migracije.html", function() {
+  // footer s linkom na mom imenu
+  function sifra() {
+    var unos = prompt("Upiši šifru kako bi vidio sadržaj");
+    if (unos === null || unos === undefined || unos === "") {
+      pokrivac.classList = "pokrivac";
+    } else if (unos === "demogeografija") {
+      pokrivac.classList = "";
+    } else {
+      pokrivac.classList = "pokrivac";
+    }
+  }
+  sifra();
 });
-
 // pozivanje route funkcije
 route.run();
