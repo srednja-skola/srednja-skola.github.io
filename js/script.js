@@ -30,7 +30,7 @@ route.add("dodatna-nastava.html", function() {
     var unos = prompt("Upiši šifru kako bi vidio sadržaj");
     if (unos === null || unos === undefined || unos === "") {
       pokrivac.classList = "pokrivac";
-    } else if (unos === "demogeografija") {
+    } else if (unos === "mreze") {
       pokrivac.classList = "";
     } else {
       pokrivac.classList = "pokrivac";
