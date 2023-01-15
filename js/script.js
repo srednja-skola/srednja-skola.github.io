@@ -36,7 +36,7 @@ route.add("dodatna-nastava.html", function() {
       pokrivac.classList = "pokrivac";
     }
   }
-  sifra();
+ // sifra();
 }),
 route.add("migracije.html", function() {
   // footer s linkom na mom imenu
