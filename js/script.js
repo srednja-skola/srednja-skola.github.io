@@ -22,7 +22,7 @@ var route = {
 // aktiviraj na svim stranicama (ostaviš prazno i to znači svi linkovi) - sve one stranice na kojima želiš drukčije, postavi ispod ovog koda
 route.add("", function() {
   // footer s linkom na mom imenu
-  copyleft.innerHTML = "Copyleft <span class='cl'>&ensp;&copy;&ensp;</span> " + new Date().getFullYear() + ". - Danijel Gavranović, prof.";
+  copyleft.innerHTML = "Copyleft <span class='cl'>&ensp;&copy;&ensp;</span> " + new Date().getFullYear() + ".";
 });
 route.add("dodatna-nastava.html", function() {
   // footer s linkom na mom imenu
@@ -54,3 +54,4 @@ route.add("migracije.html", function() {
 });
 // pozivanje route funkcije
 route.run();
+
